@@ -47,10 +47,10 @@ export default function Navbar(){
               <a className="nav-link" href="#details">Établissement</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#services">Vie des élèves</a>
+              <a className="nav-link" href="#services">Examen</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#projects">About</a>
+              <a className="nav-link" href="#projects">Classe</a>
             </li>
             <li className="nav-item">
               <a
