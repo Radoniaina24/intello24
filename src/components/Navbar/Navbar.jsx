@@ -39,7 +39,7 @@ export default function Navbar(){
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul className="navbar-nav ms-auto">
+          <ul className="navbar-nav ms-auto text-center">
             <li className="nav-item">
               <a className="nav-link" aria-current="page" href="#">Accueil</a>
             </li>

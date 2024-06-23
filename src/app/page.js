@@ -7,8 +7,10 @@ import Introduction from "@/components/Introduction/Introduction";
 import Service from "@/components/Middle/Service";
 import Projects from "@/components/Projects/Projects";
 import Testimonials from "@/components/Testimonials/Testimonials";
+import ScrollTopBtn from "@/components/scrollTopButon/scrollTopBtn";
 
 export default function Home() {
+  
   return (
     <>
       <Hero/>
@@ -20,6 +22,7 @@ export default function Home() {
       <Testimonials/>
       <Contact/>
       <Footer/>
+      <ScrollTopBtn/>
     </>
   );
 }

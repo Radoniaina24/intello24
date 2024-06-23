@@ -80,7 +80,7 @@ function Testimonials(props) {
                     data-bs-target="#testimonialCarousel"
                     data-bs-slide="prev"
                 >
-                    <FontAwesomeIcon icon={faArrowCircleLeft} className="fa-3x text-secondary"/>
+                    <FontAwesomeIcon icon={faArrowCircleLeft} className="text-secondary"/>
                 </button>
                 <button
                     className="carousel-control-next"
@@ -88,7 +88,8 @@ function Testimonials(props) {
                     data-bs-target="#testimonialCarousel"
                     data-bs-slide="next"
                 >
-                    <FontAwesomeIcon icon={faArrowCircleRight} className="fa-3x text-secondary"/>
+                    {/* <FontAwesomeIcon icon={faArrowCircleLeft} className="fa-3x text-secondary"/> */}
+                    <FontAwesomeIcon size='25px' icon={faArrowCircleRight} className="text-secondary"/>
                 </button>
             </div>
         </section>

@@ -14,7 +14,7 @@ function Footer(props) {
                     <div className="col-md-4 my-3">
                          <ul className="list-unstyled">
                             <li className='fw-bold'>Adresse</li>
-                            <li>Lycée Intello Tsimbazaza</li>
+                            <li>60 RUE KASANGA TSARAFARITRA TSIMABZAZA</li>
                             <li>Antananarivo 101</li>
                             <li className='fw-bold'>Téléphone</li>
                             <li>

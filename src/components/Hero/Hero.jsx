@@ -6,7 +6,7 @@ import Svg from './Svg'
 export default function Hero() {
   return (
     //  <!-- Header -->
-    <header className="header position-relative mt-4  overflow-hidden">
+    <header className="header position-relative mt-5  overflow-hidden">
       <Image
         src={decorationStart}
         alt=""

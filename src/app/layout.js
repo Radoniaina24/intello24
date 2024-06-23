@@ -1,3 +1,4 @@
+import BoostrapBundle from "@/components/InstallBootstrap/BoostrapBundle";
 import Navbar from "@/components/Navbar/Navbar";
 import "@/theme/scss/bootstrap.scss"
 import "@/theme/scss/styles.scss"
@@ -9,6 +10,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
+        <BoostrapBundle/>
         <Navbar/>
         {children}
       </body>
