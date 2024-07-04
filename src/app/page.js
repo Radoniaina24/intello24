@@ -2,9 +2,9 @@ import Introduction from '@/components/About/Introduction';
 import Contact from '@/components/Contact/Contact';
 import Details from '@/components/Details/Details';
 import Details2 from '@/components/Details/Details2';
+import Projects from '@/components/Education/Projects';
 import Hero from '@/components/Hero/Hero';
 import Service from '@/components/Middle/Service';
-import Projects from '@/components/Projects/Projects';
 import Testimonials from '@/components/Testimonials/Testimonials';
 
 export default function Home() {
