@@ -89,7 +89,7 @@ function Testimonials(props) {
                     data-bs-slide="next"
                 >
                     {/* <FontAwesomeIcon icon={faArrowCircleLeft} className="fa-3x text-secondary"/> */}
-                    <FontAwesomeIcon size='25px' icon={faArrowCircleRight} className="text-secondary"/>
+                    <FontAwesomeIcon size='xs' icon={faArrowCircleRight} className="text-secondary"/>
                 </button>
             </div>
         </section>

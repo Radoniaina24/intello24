@@ -1,4 +1,5 @@
 import BoostrapBundle from "@/components/InstallBootstrap/BoostrapBundle";
+import "@fortawesome/fontawesome-svg-core";
 import Navbar from "@/components/Navbar/Navbar";
 import "@/theme/scss/bootstrap.scss"
 import "@/theme/scss/styles.scss"

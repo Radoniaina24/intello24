@@ -25,7 +25,7 @@ function Service(props) {
                             <div
                                 className="col-md-4 d-flex flex-column align-items-center text-center"
                             >
-                                <FontAwesomeIcon icon={faRocket} className="text-secondary mb-2"/>
+                                <FontAwesomeIcon  size="xs"icon={faRocket} className="text-secondary mb-2"/>
                                 <p className="fs-5 fw-bold">Space Analysis & Planning</p>
                             </div>
                             <div
