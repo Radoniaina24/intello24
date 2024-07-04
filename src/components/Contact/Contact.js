@@ -2,6 +2,22 @@ import contact1 from '@/images/contact2.png';
 import decoration from '@/images/decoration-star.svg';
 import Image from 'next/image';
 function Contact(props) {
+  const {
+    handleSubmit,
+    handleChange,
+    handleBlur,
+    touched,
+    errors,
+    values,
+    resetForm,
+    setFieldValue,
+  } = useFormik({
+    initialValues,
+    validationSchema: subTaskSchema,
+    onSubmit(values) {
+      console.log(values.reminder);
+    },
+  });
   return (
     <section id='contact' className='contact my-2 position-relative'>
       <Image
