@@ -4,6 +4,8 @@ import decoration from '@/images/decoration-star.svg';
 import { contactSchema } from '@/utils/yup/Schema';
 import { useFormik } from 'formik';
 import Image from 'next/image';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 const initialValues = {
   name: '',
   email: '',
@@ -11,8 +13,13 @@ const initialValues = {
   phone: '',
 };
 function Contact(props) {
+  function notify() {
+    toast.success('Email envoyer', {
+      position: 'top-right',
+    });
+  }
   function onSubmit() {
-    console.log(values);
+    notify();
     resetForm();
   }
   const { handleSubmit, handleChange, touched, errors, values, resetForm } =
@@ -130,6 +137,7 @@ function Contact(props) {
           </div>
         </div>
       </div>
+      <ToastContainer />
     </section>
   );
 }

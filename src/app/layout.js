@@ -6,6 +6,7 @@ import '@/theme/scss/bootstrap.scss';
 import '@/theme/scss/styles.scss';
 import '@fortawesome/fontawesome-svg-core';
 import { Poppins } from 'next/font/google';
+import 'react-toastify/dist/ReactToastify.css';
 const poppins = Poppins({
   weight: ['400'],
   style: ['normal', 'italic'],
