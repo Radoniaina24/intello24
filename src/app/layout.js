@@ -1,5 +1,7 @@
+import Footer from '@/components/Footer/Footer';
 import BoostrapBundle from '@/components/InstallBootstrap/BoostrapBundle';
 import Navbar from '@/components/Navbar/Navbar';
+import ScrollTopBtn from '@/components/scrollTopButon/scrollTopBtn';
 import '@/theme/scss/bootstrap.scss';
 import '@/theme/scss/styles.scss';
 import '@fortawesome/fontawesome-svg-core';
@@ -22,6 +24,8 @@ export default function RootLayout({ children }) {
         <BoostrapBundle />
         <Navbar />
         {children}
+        <Footer />
+        <ScrollTopBtn />
       </body>
     </html>
   );

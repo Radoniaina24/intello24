@@ -20,16 +20,6 @@ export default function Hero() {
       <div className='container position-relative z-3 mb-5'>
         <div className='row align-items-center'>
           <div className='col-lg-6'>
-            <div className='image-container'>
-              <Image
-                src={header}
-                alt=''
-                className='img-fluid rounded shadow'
-                width={''}
-              />
-            </div>
-          </div>
-          <div className='col-lg-6'>
             <div className='mt-4'>
               <h1 className='lg-text'>
                 La <span className='text-primary'>réussite</span> n&apos;a rien
@@ -44,6 +34,17 @@ export default function Hero() {
                 destination, mais un voyage extraordinaire qui vous transformera
                 et vous enrichira.
               </p>
+            </div>
+          </div>
+
+          <div className='col-lg-6'>
+            <div className='image-container'>
+              <Image
+                src={header}
+                alt=''
+                className='img-fluid rounded shadow'
+                width={''}
+              />
             </div>
           </div>
         </div>

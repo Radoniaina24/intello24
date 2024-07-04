@@ -1,6 +1,7 @@
 'use client';
 import logo from '@/components/Navbar/image/v8.png';
 import Image from 'next/image';
+import Link from 'next/link';
 import { useEffect } from 'react';
 export default function Navbar() {
   function userScroll() {
@@ -40,14 +41,14 @@ export default function Navbar() {
         <div className='collapse navbar-collapse' id='navbarNavDropdown'>
           <ul className='navbar-nav ms-auto text-center'>
             <li className='nav-item'>
-              <a className='nav-link' aria-current='page' href='#'>
+              <Link className='nav-link' href='/'>
                 Accueil
-              </a>
+              </Link>
             </li>
             <li className='nav-item'>
-              <a className='nav-link' href='#details'>
+              <Link className='nav-link' href='/About'>
                 À propos
-              </a>
+              </Link>
             </li>
             <li className='nav-item'>
               <a className='nav-link' href='#services'>
