@@ -1,48 +1,58 @@
-.btn-outline-secondary{
+.btn-outline-secondary {
   color: var(--bs-secondary);
 }
-.btn-outline-secondary{
-  &:hover{
-    color: #fff
+.btn-outline-secondary {
+  &:hover {
+    color: #fff;
   }
 }
-.navbar{
+.navbar {
   transition: all 0.5s ease-in-out;
+  background-color: #a8e1fc;
+  // background-color: linear-gradient(top right, #a8e1fc, #a5e2ff);
 }
-.navbar-sticky{
-  background-color: #fff;
+// .navbar-nav {
+//   .nav-item {
+//     font-size: 1.1rem;
+//   }
+// }
+.navbar-sticky {
+  background-color: #a8e1fc;
   opacity: 0.9;
-  box-shadow: 0 0 10px rgba(0,0,0, 0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-.xl-text{
+.xl-text {
   font-size: 75px;
 }
 /* Header */
-.header .decoration-star{
-  top:80px;
+// .header {
+//   background-color: #a8e1fc;
+// }
+.header .decoration-star {
+  top: 80px;
   left: -200px;
   width: 500px;
   opacity: 0.7;
 }
-.header .decoration-star-2{
-  top:80px;
+.header .decoration-star-2 {
+  top: 80px;
   right: -200px;
   width: 500px;
   opacity: 0.7;
 }
-.details .decoration-star{
+.details .decoration-star {
   left: -200px;
   width: 500px;
 }
-.details-2 .decoration-star{
+.details-2 .decoration-star {
   right: -200px;
-  width: 500px
+  width: 500px;
 }
-.contact .decoration-star{
+.contact .decoration-star {
   left: -300px;
   width: 600px;
 }
-.to-top-btn{
+.to-top-btn {
   position: fixed;
   bottom: 20px;
   right: 20px;
@@ -57,47 +67,52 @@
   z-index: 10;
   cursor: pointer;
 }
-.to-top-btn{
-  &:hover{
+.to-top-btn {
+  &:hover {
     background-color: #1d1d12;
   }
 }
-.show{
+.show {
   opacity: 5;
 }
-@media(max-width: 992px){
-  .xl-text{
+@media (max-width: 992px) {
+  .xl-text {
     font-size: 50px;
   }
-  .header{
+  .header {
     margin-top: 0px !important;
     text-align: center;
   }
-  .header .decoration-star{
+  .header .decoration-star {
     left: -100px;
     width: 250px;
   }
-  .header .decoration-star-2{
+  .header .decoration-star-2 {
     right: -100px;
     width: 250px;
   }
-  .image-container{
+  .image-container {
     margin-top: 30px;
   }
-  .intro{
+  .intro {
     padding: 20px 0px !important;
   }
-  .services .col-md-4{
+  .services .col-md-4 {
     border-bottom: 1px #ccc solid;
     margin: 10px 0px;
   }
   .details-2 {
     margin-top: 0 !important;
   }
-  .details-2 .decoration-star{
-    top: 300px
+  .details-2 .decoration-star {
+    top: 300px;
   }
 }
 .cls-1 {
-  fill:var(--bs-light);
+  fill: var(--bs-light);
+}
+
+//fonts
+.roboto {
+  font-family: var(--font-roboto);
 }
