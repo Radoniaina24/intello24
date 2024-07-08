@@ -30,7 +30,7 @@ function Contact(props) {
     });
 
   return (
-    <section id='contact' className='contact my-2 position-relative'>
+    <section id='contact' className='contact my-5 position-relative'>
       <Image
         src={decoration}
         alt=''

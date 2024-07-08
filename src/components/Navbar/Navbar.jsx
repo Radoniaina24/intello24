@@ -69,12 +69,12 @@ export default function Navbar() {
               </a>
             </li>
             <li className='nav-item'>
-              <a
+              <Link
                 className='nav-link btn btn-outline-secondary px-4 mx-4'
-                href='#contact'
+                href='contact'
               >
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
