@@ -2,6 +2,7 @@
 import logo from '@/components/Navbar/image/v8.png';
 import Image from 'next/image';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { useEffect } from 'react';
 export default function Navbar() {
   function userScroll() {
@@ -21,6 +22,7 @@ export default function Navbar() {
   useEffect(() => {
     userScroll();
   });
+  const pahtname = usePathname();
   return (
     <nav className='navbar navbar-expand-lg sticky-top navbar-light'>
       <div className='container'>
@@ -44,12 +46,20 @@ export default function Navbar() {
             style={{ fontSize: '.9rem', textTransform: 'uppercase' }}
           >
             <li className='nav-item'>
-              <Link className='nav-link' href='/'>
+              <Link
+                className={`nav-link ${pahtname === '/' ? 'active-link' : ''}`}
+                href='/'
+              >
                 Accueil
               </Link>
             </li>
             <li className='nav-item'>
-              <Link className='nav-link' href='/about'>
+              <Link
+                className={`nav-link ${
+                  pahtname === '/about' ? 'active-link' : ''
+                }`}
+                href='/about'
+              >
                 À propos
               </Link>
             </li>
@@ -59,7 +69,12 @@ export default function Navbar() {
               </a>
             </li>
             <li className='nav-item'>
-              <Link className='nav-link' href='/education'>
+              <Link
+                className={`nav-link ${
+                  pahtname === '/education' ? 'active-link' : ''
+                }`}
+                href='/education'
+              >
                 Éducation
               </Link>
             </li>
@@ -70,7 +85,9 @@ export default function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                className='nav-link btn btn-outline-secondary px-4 mx-4'
+                className={`nav-link  btn btn-outline-secondary px-4 mx-4 ${
+                  pahtname === '/contact' ? 'active-link' : ''
+                }`}
                 href='contact'
               >
                 Contact
