@@ -6,7 +6,9 @@ import Projects from '@/components/Education/Projects';
 import Hero from '@/components/Hero/Hero';
 import Service from '@/components/Middle/Service';
 import Testimonials from '@/components/Testimonials/Testimonials';
-
+export const metadata = {
+  title: 'Acceuil',
+};
 export default function Home() {
   return (
     <>
