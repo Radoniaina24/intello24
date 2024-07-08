@@ -4,7 +4,7 @@ import Image from 'next/image';
 export default function Hero() {
   return (
     //  <!-- Header -->
-    <header className='header position-relative p-5  overflow-hidden'>
+    <header className='header position-relative p-5 overflow-hidden'>
       <Image
         src={decorationStart}
         alt=''
