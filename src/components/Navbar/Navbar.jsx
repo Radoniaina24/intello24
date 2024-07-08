@@ -39,7 +39,10 @@ export default function Navbar() {
           <span className='navbar-toggler-icon'></span>
         </button>
         <div className='collapse navbar-collapse' id='navbarNavDropdown'>
-          <ul className='navbar-nav ms-auto text-center'>
+          <ul
+            className='navbar-nav mx-auto text-center'
+            style={{ fontSize: '.9rem', textTransform: 'uppercase' }}
+          >
             <li className='nav-item'>
               <Link className='nav-link' href='/'>
                 Accueil

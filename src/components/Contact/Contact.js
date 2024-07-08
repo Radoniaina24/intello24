@@ -93,7 +93,7 @@ function Contact(props) {
                         ? 'border border-danger'
                         : ''
                     }`}
-                    placeholder='Enter phone'
+                    placeholder='phone'
                     name='phone'
                     id='phone'
                     value={values.phone}
@@ -112,7 +112,7 @@ function Contact(props) {
                         ? 'border border-danger'
                         : ''
                     }`}
-                    placeholder='Enter message'
+                    placeholder='message'
                     rows='8'
                     name='message'
                     id='message'

@@ -116,3 +116,13 @@
 .roboto {
   font-family: var(--font-roboto);
 }
+
+//button toggler
+.navbar-toggler {
+  border: none;
+  outline: none;
+  &:focus {
+    border: none;
+    outline: none !important;
+  }
+}
