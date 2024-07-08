@@ -1,5 +1,5 @@
 import etudiante from '@/images/etudiante.jpg';
-import professeur from '@/images/professeur.jpg';
+import professeur from '@/images/Miraille.jpeg';
 import Image from 'next/image';
 export default function About() {
   return (
@@ -15,6 +15,21 @@ export default function About() {
             </p>
           </div>
         </div>
+        <div className='row '>
+          <div className='col-12 col-md-6'>
+            <h3>Systeme educatif Francais</h3>
+            <ul className='list-unstyled'>
+              <li>Préscolaire</li>
+              <li>Primaire</li>
+              <li>Collège</li>
+              <li>Lycée</li>
+            </ul>
+          </div>
+          <div className='col-12 col-md-6'>
+            <h3>Systeme educatif Malagasy</h3>
+            <p>Préparation au examen BEPC et BACC toutes séries</p>
+          </div>
+        </div>
         <div className='about'>
           <div className='row mt-5 align-items-center justify-content-center'>
             <div className=' col-12 col-md-6 col-lg-8'>
@@ -28,14 +43,9 @@ export default function About() {
             <div className='col-12 col-md-6 col-lg-4 mt-4 mt-md-0'>
               <h2>Message du Principal</h2>
               <p>
-                Paragraphe. Vous pouvez le modifier et ajouter votre texte.
-                Double-cliquez ici ou cliquez sur « Modifier le texte » pour
-                ajouter votre contenu et personnaliser la police.
-              </p>
-              <p>
-                C&apos;est l&apos;espace idéal pour rédiger un long texte de
-                présentation. Utilisez-le pour donner plus d&apos;informations
-                sur votre entreprise.
+                Offrir une éducation de qualité accessible à tous, en promouvant
+                l&apos;excellence académique, la pensée critique et le
+                développement personnel.
               </p>
             </div>
           </div>
