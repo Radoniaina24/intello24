@@ -99,19 +99,3 @@ export default function Navbar() {
     </nav>
   );
 }
-
-// function userScroll(){
-//     const navbar = document.querySelector('.navbar');
-//     window.addEventListener('scroll', ()=>{
-//         if(window.scrollY > 50){
-//             navbar.classNameList.add("bg-dark")
-//             navbar.classNameList.add("navbar-sticky")
-//         }else{
-//             navbar.classNameList.remove("bg-dark")
-//             navbar.classNameList.remove("navbar-sticky")
-//         }
-//     })
-// }
-// useEffect(()=>{
-//     userScroll()
-// })

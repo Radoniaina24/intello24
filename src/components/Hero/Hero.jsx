@@ -1,5 +1,5 @@
 import decorationStart from '@/images/decoration-star.svg';
-import header from '@/images/study.jpg';
+import ecole from '@/images/ecole.png';
 import Image from 'next/image';
 export default function Hero() {
   return (
@@ -30,9 +30,6 @@ export default function Hero() {
                 destin en main et créez votre propre réussite. Préparez-vous
                 minutieusement, foncez vers vos objectifs avec persévérance, et
                 savourez la satisfaction d&apos;une victoire méritée.
-                N&apos;oubliez jamais que le succès n&apos;est pas une
-                destination, mais un voyage extraordinaire qui vous transformera
-                et vous enrichira.
               </p>
             </div>
           </div>
@@ -40,7 +37,7 @@ export default function Hero() {
           <div className='col-lg-6'>
             <div className='image-container'>
               <Image
-                src={header}
+                src={ecole}
                 alt=''
                 className='img-fluid rounded shadow'
                 width={''}
