@@ -42,7 +42,7 @@ export default function Navbar() {
         </button>
         <div className='collapse navbar-collapse' id='navbarNavDropdown'>
           <ul
-            className='navbar-nav mx-auto text-center'
+            className='navbar-nav ms-auto text-center'
             style={{ fontSize: '.9rem', textTransform: 'uppercase' }}
           >
             <li className='nav-item'>
