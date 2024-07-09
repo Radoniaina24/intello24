@@ -4,11 +4,11 @@ import { TypeAnimation } from 'react-type-animation';
 export default function Hero() {
   return (
     <>
-      <header class='header position-relative'>
-        <div class='container'>
-          <div class='row text-center'>
-            <div class='col-12'>
-              <h1 class='xl-text text-white'>
+      <header className='header position-relative'>
+        <div className='container'>
+          <div className='row text-center'>
+            <div className='col-12'>
+              <h1 className='xl-text text-white'>
                 La <span className='text-primary fw-bold'>réussite </span>
                 <TypeAnimation
                   sequence={[
@@ -23,7 +23,7 @@ export default function Hero() {
                   cursor={false}
                 />
               </h1>
-              <Link href='/about' class='btn btn-primary text-white mt-4'>
+              <Link href='/about' className='btn btn-primary text-white mt-4'>
                 En savoir plus
               </Link>
             </div>
