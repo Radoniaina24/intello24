@@ -63,15 +63,36 @@ export default function Navbar() {
                 À propos
               </Link>
             </li>
-            <li className='nav-item'>
-              <Link
-                className={`nav-link ${
-                  pahtname === '/education' ? 'active-link' : ''
-                }`}
-                href='/education'
+            <li className='nav-item dropdown '>
+              <a
+                className='nav-link dropdown-toggle'
+                href='#'
+                role='button'
+                data-bs-toggle='dropdown'
+                aria-expanded='false'
               >
-                Éducation
-              </Link>
+                Établissement
+              </a>
+              <ul className='dropdown-menu text-lowercase'>
+                <li>
+                  <a className='dropdown-item' href='#'>
+                    Les écoles primaires
+                  </a>
+                </li>
+                <li>
+                  <a className='dropdown-item' href='#'>
+                    Le collège-lycée
+                  </a>
+                </li>
+                <li>
+                  <hr className='dropdown-divider' />
+                </li>
+                <li>
+                  <a className='dropdown-item' href='#'>
+                    Inscription
+                  </a>
+                </li>
+              </ul>
             </li>
             <li className='nav-item'>
               <a className='nav-link' href='#projects'>
