@@ -75,14 +75,20 @@ export default function Navbar() {
               </a>
               <ul className='dropdown-menu text-capitalize'>
                 <li>
-                  <a className='dropdown-item' href='#'>
+                  <Link
+                    className={`dropdown-item `}
+                    href='/etablissement/ecole-primaire'
+                  >
                     Les écoles primaires
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className='dropdown-item' href='#'>
+                  <Link
+                    className={`dropdown-item `}
+                    href='/etablissement/college-et-lycee'
+                  >
                     Le collège-lycée
-                  </a>
+                  </Link>
                 </li>
                 <li>
                   <hr className='dropdown-divider' />
