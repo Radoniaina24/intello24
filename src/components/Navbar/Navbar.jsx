@@ -26,9 +26,9 @@ export default function Navbar() {
   return (
     <nav className='navbar navbar-expand-lg sticky-top navbar-light'>
       <div className='container'>
-        <a className='navbar-brand' href='#'>
+        <Link className='navbar-brand' href='/'>
           <Image src={logo} alt='' width='' height='90' />
-        </a>
+        </Link>
         <button
           className='navbar-toggler'
           type='button'
