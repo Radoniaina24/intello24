@@ -63,7 +63,7 @@ export default function Navbar() {
                 À propos
               </Link>
             </li>
-            <li className='nav-item dropdown '>
+            <li className='nav-item dropdown custom-dropdown '>
               <a
                 className='nav-link dropdown-toggle'
                 href='#'
@@ -73,7 +73,7 @@ export default function Navbar() {
               >
                 Établissement
               </a>
-              <ul className='dropdown-menu text-lowercase'>
+              <ul className='dropdown-menu text-capitalize'>
                 <li>
                   <a className='dropdown-item' href='#'>
                     Les écoles primaires
