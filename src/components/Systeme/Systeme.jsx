@@ -12,8 +12,8 @@ export default function Systeme() {
           </div>
         </div>
       </div>
-      <section id='projects' class='projects py-6'>
-        <div class='container'>
+      <section id='projects' className='projects py-6'>
+        <div className='container'>
           <div className='row justify-content-between'>
             <div className='col-md-6 col-lg-4 mt-4 mt-md-0'>
               <h4>Système educatif Francais</h4>
@@ -34,6 +34,9 @@ export default function Systeme() {
               <ul className='text-white fs-5'>
                 <li>BEPC</li>
                 <li>BACC toutes séries</li>
+                <li>Methodologie facile</li>
+                <li>Professeurs expériementés</li>
+                <li>Reconnu pour la réussite des élèves</li>
                 <button className='btn btn-outline-warning btn-sm mt-3'>
                   En savoir plus
                 </button>
@@ -47,45 +50,4 @@ export default function Systeme() {
 }
 
 {
-  /* 
-
-            <div class='col-md-4'>
-              <div class='card border-0 shadow'>
-                {/* <Image
-                  src={francais}
-                  alt='Systeme francais'
-                  className='img-fluid'
-                /> 
-                <div class='card-body'>
-                  <h4 class='card-title'>Système educatif Malagasy</h4>
-                  <ul className='list-unstyled'>
-                    <li className='list-item'>
-                      <input
-                        class='form-check-input me-1'
-                        type='checkbox'
-                        value=''
-                        checked
-                        id='firstCheckbox'
-                      />
-                      BEPC
-                    </li>
-                    <li>
-                      <input
-                        class='form-check-input me-1'
-                        type='checkbox'
-                        value=''
-                        checked
-                        id='firstCheckbox'
-                      />
-                      BACC toutes séries
-                    </li>
-
-                    <button className='btn btn-outline-primary btn-sm mt-3'>
-                      En savoir plus
-                    </button>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div> */
 }
