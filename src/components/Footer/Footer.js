@@ -1,61 +1,57 @@
-import facebook from '@/images/facebook.png';
-import mail from '@/images/mail.png';
-import telephone from '@/images/telephone.png';
-import Image from 'next/image';
+import Link from 'next/link';
+
 function Footer(props) {
   return (
     <footer className='footer bg-dark text-white py-6 mt-5'>
       <div className='container'>
-        <div className='row  text-center text-md-start '>
-          {/* <div className='col-md-4 my-3 d-none d-md-block  text-md-start '>
-            <Image src={logo} alt='logo' />
-          </div> */}
-          <div className='col-md-4 col-lg-3 my-3'>
+        <div className='row'>
+          <div className='col-12 col-md-4'>
+            <p className='lead'>MENU DU SITE</p>
             <ul className='list-unstyled'>
-              <li className='fw-bold'>Adresse</li>
-              <li>60 RUE KASANGA TSARAFARITRA TSIMABZAZA</li>
-              <li>Antananarivo 101</li>
-            </ul>
-          </div>
-          <div className='col-md-4 col-lg-3 my-3'>
-            <ul className='list-unstyled'>
-              <li className='fw-bold'>Téléphone</li>
-              <li>
-                <Image
-                  src={telephone}
-                  alt='telephone'
-                  className='image-fluid'
-                />{' '}
-                +261 34 74 822 83 / +261 34 29 429 88
+              <li className='list-item'>
+                <Link className='nav-link' href='/'>
+                  Accueil
+                </Link>
+              </li>
+              <li className='list-item'>
+                <Link className={`nav-link `} href='/about'>
+                  À propos
+                </Link>
+              </li>
+              <li className='list-item'>
+                <Link className={`nav-link `} href='/education'>
+                  Éducation
+                </Link>
+              </li>
+              <li className='list-item'>
+                <Link className={`nav-link`} href='contact'>
+                  Contact
+                </Link>
               </li>
             </ul>
           </div>
-          <div className='col-md-4 col-lg-3 my-3'>
+
+          <div className='col-12 col-md-4'>
+            <p className='lead'>CONTACT</p>
             <ul className='list-unstyled'>
-              <li className='fw-bold'>Email</li>
-              <li>
-                <Image
-                  src={mail}
-                  alt='telephone'
-                  className='image-fluid me-2 text-light'
-                />{' '}
-                intellotsimbazaza@gmail.com
+              <li className='list-item'>
+                60 RUE KASANGA TSARAFARITRA TSIMABZAZA
               </li>
+              <li className='list-item'>Antananarivo 101</li>
+              <li className='list-item'>
+                Tel: +261 34 74 822 83 / +261 34 29 429 88
+              </li>
+              <li className='list-item'>intellotsimbazaza@gmail.com</li>
             </ul>
           </div>
-          <div className='col-md-4 col-lg-3 my-3'>
+
+          <div className='col-12 col-md-4'>
+            <p className='lead'>RESTER CONNECTÉ·E</p>
             <ul className='list-unstyled'>
-              <li className='fw-bold'>
+              <li className='list-item'>
                 Suivez nos actualités sur les réseaux sociaux
               </li>
-              <li>
-                <Image
-                  src={facebook}
-                  alt='telephone'
-                  className='image-fluid me-2'
-                />{' '}
-                Lycée Intello Tsimbazaza
-              </li>
+              <li className='list-item'>Facebook: Lycée Intello Tsimbazaza</li>
             </ul>
           </div>
         </div>
@@ -64,4 +60,12 @@ function Footer(props) {
   );
 }
 
+{
+  /* <div className='container'>
+        <div className='row  text-center text-md-start '>
+          <div className='col-md-4 my-3 d-none d-md-block  text-md-start '>
+            <Image src={logo} alt='logo' />
+          </div>
+      </div> */
+}
 export default Footer;

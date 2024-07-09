@@ -64,11 +64,6 @@ export default function Navbar() {
               </Link>
             </li>
             <li className='nav-item'>
-              <a className='nav-link' href='#services'>
-                Admissions
-              </a>
-            </li>
-            <li className='nav-item'>
               <Link
                 className={`nav-link ${
                   pahtname === '/education' ? 'active-link' : ''

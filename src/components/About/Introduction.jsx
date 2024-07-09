@@ -15,21 +15,6 @@ export default function About() {
             </p>
           </div>
         </div>
-        <div className='row '>
-          <div className='col-12 col-md-6'>
-            <h3>Systeme educatif Francais</h3>
-            <ul className='list-unstyled'>
-              <li>Préscolaire</li>
-              <li>Primaire</li>
-              <li>Collège</li>
-              <li>Lycée</li>
-            </ul>
-          </div>
-          <div className='col-12 col-md-6'>
-            <h3>Systeme educatif Malagasy</h3>
-            <p>Préparation au examen BEPC et BACC toutes séries</p>
-          </div>
-        </div>
         <div className='about'>
           <div className='row mt-5 align-items-center justify-content-center'>
             <div className=' col-12 col-md-6 col-lg-8'>
