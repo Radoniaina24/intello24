@@ -1,52 +1,28 @@
-import decorationStart from '@/images/decoration-star.svg';
-import ecole from '@/images/ecole.png';
-import Image from 'next/image';
+import Link from 'next/link';
+
 export default function Hero() {
   return (
-    //  <!-- Header -->
-    <header className='header position-relative p-5 overflow-hidden'>
-      <Image
-        src={decorationStart}
+    <>
+      <header class='header position-relative'>
+        {/* <Image
+        src='images/vertical-decoration-left.svg'
         alt=''
-        className='decoration-star position-absolute'
-        width={''}
-      />
-      <Image
-        src={decorationStart}
-        alt=''
-        className='decoration-star-2 position-absolute'
-        width={''}
-      />
-      <div className='container position-relative z-3 mb-5'>
-        <div className='row align-items-center'>
-          <div className='col-lg-6'>
-            <div className='mt-4'>
-              <h1 className='lg-text'>
-                La <span className='text-primary'>réussite</span> n&apos;a rien
-                de magique. Elle se prépare
+        className='vertical-decoration position-absolute d-none d-md-block'
+      /> */}
+        <div class='container'>
+          <div class='row text-center'>
+            <div class='col-12'>
+              <h1 class='xl-text'>
+                La <span className='text-primary fw-bold'>réussite</span>{' '}
+                n&apos;a rien de magique. Elle se prépare.
               </h1>
-              <p className='lead mb-4'>
-                N &apos;attendez pas que la magie opère, mais prenez votre
-                destin en main et créez votre propre réussite. Préparez-vous
-                minutieusement, foncez vers vos objectifs avec persévérance, et
-                savourez la satisfaction d&apos;une victoire méritée.
-              </p>
-            </div>
-          </div>
-
-          <div className='col-lg-6'>
-            <div className='image-container'>
-              <Image
-                src={ecole}
-                alt=''
-                className='img-fluid rounded shadow'
-                width={''}
-              />
+              <Link href='/about' class='btn btn-primary text-white mt-4'>
+                Découvrir le collège
+              </Link>
             </div>
           </div>
         </div>
-      </div>
-      {/* <Svg /> */}
-    </header>
+      </header>
+    </>
   );
 }

@@ -59,13 +59,4 @@ function Footer(props) {
     </footer>
   );
 }
-
-{
-  /* <div className='container'>
-        <div className='row  text-center text-md-start '>
-          <div className='col-md-4 my-3 d-none d-md-block  text-md-start '>
-            <Image src={logo} alt='logo' />
-          </div>
-      </div> */
-}
 export default Footer;

@@ -25,9 +25,15 @@
   font-size: 75px;
 }
 /* Header */
-// .header {
-//   background-color: #a8e1fc;
-// }
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
+    url('../../images/header-background.jpg') left center no-repeat;
+  background-size: cover;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .header .decoration-star {
   top: 80px;
   left: -200px;
