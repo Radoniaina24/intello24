@@ -9,9 +9,8 @@ export default function About() {
           <div className='col-lg-8 offset-lg-2 text-center'>
             <h2>NOTRE LYCEE</h2>
             <p className='fs-5'>
-              Paragraphe. Vous pouvez le modifier et ajouter votre texte.
-              Double-cliquez ici ou cliquez sur « Modifier le texte » pour
-              ajouter votre contenu et personnaliser la police.
+              Reconnu pour les réusites des élèves aux examens officiels de
+              brevet et de Baccalauréat (Série génerale et SMTG).
             </p>
           </div>
         </div>

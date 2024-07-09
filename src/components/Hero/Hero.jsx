@@ -24,7 +24,7 @@ export default function Hero() {
                 />
               </h1>
               <Link href='/about' class='btn btn-primary text-white mt-4'>
-                Découvrir le collège
+                En savoir plus
               </Link>
             </div>
           </div>
