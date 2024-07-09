@@ -19,7 +19,7 @@ export default function Hero() {
                   wrapper='span'
                   speed={50}
                   style={{}}
-                  repeat={Infinity}
+                  repeat={false}
                   cursor={false}
                 />
               </h1>
