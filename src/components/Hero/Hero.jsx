@@ -8,7 +8,7 @@ export default function Hero() {
         <div class='container'>
           <div class='row text-center'>
             <div class='col-12'>
-              <h1 class='xl-text'>
+              <h1 class='xl-text text-white'>
                 La <span className='text-primary fw-bold'>réussite </span>
                 <TypeAnimation
                   sequence={[

@@ -80,17 +80,12 @@ export default function Navbar() {
                   </Link>
                 </li>
                 <li>
-                  <Link className={`dropdown-item `} href='/college-et-lycee'>
-                    Le collège-lycée
-                  </Link>
-                </li>
-                <li>
                   <hr className='dropdown-divider' />
                 </li>
                 <li>
-                  <a className='dropdown-item' href='#'>
-                    Inscription
-                  </a>
+                  <Link className={`dropdown-item `} href='/college-et-lycee'>
+                    Le collège-lycée
+                  </Link>
                 </li>
               </ul>
             </li>

@@ -8,10 +8,12 @@ export default function Details() {
           <div className='col-12 col-md-6'>
             <h3>Notre mission</h3>
             <p className='lead'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-              ab soluta velit? Consequatur molestiae totam, ipsum eligendi sed,
-              exercitationem nam aut explicabo ullam porro sapiente sunt quas
-              perspiciatis voluptatum a.
+              Transmettre le savoir et les compétences nécessaires aux élèves
+              pour s&apos;épanouir personnellement et s&apos;insérer dans la
+              société, en favorisant leur développement intellectuel, moral et
+              civique. Ils contribuent également à l&apos;égalité des chances en
+              offrant à tous les élèves les moyens de réussir leur parcours
+              scolaire et de devenir des citoyens responsables et engagés.
             </p>
             <button className='btn btn-outline-primary '>Lire plus</button>
           </div>
