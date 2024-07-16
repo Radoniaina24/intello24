@@ -24,7 +24,7 @@ export default function Navbar() {
   });
   const pahtname = usePathname();
   return (
-    <nav className='navbar navbar-expand-lg sticky-top gradient-custom'>
+    <nav className='navbar navbar-expand-lg fixed-top gradient-custom'>
       <div className='container'>
         <Link className='navbar-brand' href='/'>
           <Image src={logo} alt='' width='' height='90' />
