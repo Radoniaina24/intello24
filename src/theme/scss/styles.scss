@@ -172,8 +172,10 @@
   background-color: var(--bs-primary);
   opacity: 1;
 }
-// .fond{
-//   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
-//   url('../../images/fond2.png') left center no-repeat;
-//   background-size: cover;
-// }
+body{
+  background-image: -webkit-linear-gradient(248deg, #5ca22a 0%, #5098c8 47%, #FFCC70 95%);
+  background-image: linear-gradient(248deg, #5ca22a 0%, #5098c8 47%, #FFCC70 95%);
+}
+.systeme .fontAwesome{
+  width: 25px;
+}

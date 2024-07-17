@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 function Footer(props) {
   return (
-    <footer className='footer bg-dark text-white py-6 mt-5'>
+    <footer className='footer  text-white py-6 '>
       <div className='container'>
         <div className='row'>
           <div className='col-12 col-md-4'>

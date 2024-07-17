@@ -14,11 +14,13 @@ export default function Home() {
   return (
     <>
       <Hero><Slogan/></Hero>
-      <Details2 />
-      <Details />
-      <Systeme />
-      <Stats />
-      <Contact />
+      <div className='fond'>
+        <Details2 />
+        <Details />
+        <Systeme />
+        <Stats />
+        <Contact />
+      </div>
     </>
   );
 }

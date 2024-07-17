@@ -2,7 +2,7 @@ import diplome from '@/images/mission.png';
 import Image from 'next/image';
 export default function Details() {
   return (
-    <section className='mission my-6'>
+    <section className='mission my-3 pb-5'>
       <div className='container'>
         <div className='row align-items-center'>
           <div className='col-12 col-md-6'>

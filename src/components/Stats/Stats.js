@@ -2,7 +2,7 @@
 import CountUp from 'react-countup';
 function Stats(props) {
   return (
-    <section id='stats' className='stats  bg-secondary'>
+    <section id='stats' className='stats'>
       <div className='row my-6 '>
         <div className='col-md-4 col-sm-6 text-center  border-end border-4 border-light my-5 '>
           <h2 className='counter xl-text'>
