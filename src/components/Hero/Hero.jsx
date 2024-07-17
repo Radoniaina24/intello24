@@ -1,8 +1,6 @@
 'use client';
-import Image from 'next/image';
 import { TypeAnimation } from 'react-type-animation';
 import Svg from './Svg';
-import focused from '@/images/focused.png'
 export default function Hero() {
   return (
     <>
@@ -19,7 +17,7 @@ export default function Hero() {
                     1000,
                   ]}
                   wrapper='span'
-                  speed={50}
+                  speed={50} 
                   repeat={false}
                   cursor={false}
                 />

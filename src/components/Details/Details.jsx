@@ -1,4 +1,4 @@
-import diplome from '@/images/diplome.jpg';
+import diplome from '@/images/mission.png';
 import Image from 'next/image';
 export default function Details() {
   return (
@@ -6,22 +6,23 @@ export default function Details() {
       <div className='container'>
         <div className='row align-items-center'>
           <div className='col-12 col-md-6'>
-            <h3>Notre mission</h3>
+            <h3 className='text-uppercase text-secondary'>Notre mission</h3>
+            <hr class="hr-heading" />
             <p className='lead'>
               Transmettre le savoir et les compétences nécessaires aux élèves
               pour s&apos;épanouir personnellement et s&apos;insérer dans la
-              société, en favorisant leur développement intellectuel, moral et
-              civique. Ils contribuent également à l&apos;égalité des chances en
+              société, en favorisant leur développement intellectuel, moral et ...
+              {/* civique. Ils contribuent également à l&apos;égalité des chances en
               offrant à tous les élèves les moyens de réussir leur parcours
-              scolaire et de devenir des citoyens responsables et engagés.
+              scolaire et de devenir des citoyens responsables et engagés. */}
             </p>
-            <button className='btn btn-outline-primary '>Lire plus</button>
+            <button className='btn btn-outline-secondary btn-sm'>Lire plus</button>
           </div>
           <div className='col-12 col-md-6'>
             <Image
               src={diplome}
               alt='diplome'
-              className='img-fluide rounded shadow w-100 h-100'
+              className='img-fluide w-100 h-100'
             />
           </div>
         </div>

@@ -1,4 +1,4 @@
-import etudiante from '@/images/etudiante.jpg';
+// import etudiante from '@/images/etudiante.jpg';
 import professeur from '@/images/Miraille.jpeg';
 import Image from 'next/image';
 export default function About() {
@@ -45,12 +45,12 @@ export default function About() {
               </ul>
             </div>
             <div className=' col-12 col-md-6 col-lg-8 text-end'>
-              <Image
+              {/* <Image
                 src={etudiante}
                 alt='logo'
                 className='shadow rounded img-fluid'
                 width={'600'}
-              />
+              /> */}
             </div>
           </div>
         </div>

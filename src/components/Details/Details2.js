@@ -1,14 +1,19 @@
+import Image from "next/image";
+import start from '@/images/decoration-star.svg'
 function Details2(props) {
   return (
     <>
-      <section className='get-quote bg-light py-6 text-center'>
+      <section className=' introduction bg-light py-6 text-center position-relative overflow-hidden'>
+        <Image src={start} alt='start' className="decoration-star position-absolute"/>
+        <Image src={start} alt='start' className="decoration-star-2 position-absolute"/>
         <div className='container'>
           <div className='row'>
             <div className='col-lg-8 offset-lg-2'>
-              <h4 className='lh-base'>
-                Votre avenir commence ici : Un lycée d&apos;excellence qui vous
-                ouvre les portes des meilleures universités.
+              <h4 className='lh-base '>
+                Votre avenir commence ici : Un <span className="text-secondary fw-bolder">lycée d&apos;excellence</span> qui vous
+               <span className="text-primary"> ouvre les portes des meilleures universités</span>.
               </h4>
+              <hr class="hr-introduction" />
             </div>
           </div>
         </div>

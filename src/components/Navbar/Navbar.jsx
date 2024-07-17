@@ -47,7 +47,7 @@ export default function Navbar() {
           >
             <li className='nav-item'>
               <Link
-                className={`nav-link ${pahtname === '/' ? 'active-link' : ''}`}
+                className={`nav-link  ${pahtname === '/' ? 'active-link' : ''}`}
                 href='/'
               >
                 Accueil
@@ -55,7 +55,7 @@ export default function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                className={`nav-link ${
+                className={`nav-link   ${
                   pahtname === '/about' ? 'active-link' : ''
                 }`}
                 href='/about'
@@ -63,7 +63,7 @@ export default function Navbar() {
                 À propos
               </Link>
             </li>
-            <li className='nav-item dropdown custom-dropdown '>
+            <li className='nav-item dropdown custom-dropdown  text-dark'>
               <a
                 className='nav-link dropdown-toggle'
                 href='#'
@@ -96,7 +96,7 @@ export default function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                className={`nav-link  btn btn-outline-secondary px-4 mx-4 ${
+                className={`nav-link  btn btn-outline-secondary px-4 mx-4 text-dark ${
                   pahtname === '/contact' ? 'active-link' : ''
                 }`}
                 href='contact'
