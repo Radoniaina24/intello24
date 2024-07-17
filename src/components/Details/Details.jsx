@@ -7,7 +7,7 @@ export default function Details() {
         <div className='row align-items-center'>
           <div className='col-12 col-md-6'>
             <h3 className='text-uppercase text-secondary'>Notre mission</h3>
-            <hr class="hr-heading" />
+            <hr className="hr-heading" />
             <p className='lead'>
               Transmettre le savoir et les compétences nécessaires aux élèves
               pour s&apos;épanouir personnellement et s&apos;insérer dans la

@@ -3,7 +3,7 @@ import start from '@/images/decoration-star.svg'
 function Details2(props) {
   return (
     <>
-      <section className=' introduction bg-light py-6 text-center position-relative overflow-hidden'>
+      <section className=' introduction bg-light  py-6 text-center position-relative overflow-hidden'>
         <Image src={start} alt='start' className="decoration-star position-absolute"/>
         <Image src={start} alt='start' className="decoration-star-2 position-absolute"/>
         <div className='container'>
@@ -13,7 +13,7 @@ function Details2(props) {
                 Votre avenir commence ici : Un <span className="text-secondary fw-bolder">lycée d&apos;excellence</span> qui vous
                <span className="text-primary"> ouvre les portes des meilleures universités</span>.
               </h4>
-              <hr class="hr-introduction" />
+              <hr className="hr-introduction" />
             </div>
           </div>
         </div>

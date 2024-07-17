@@ -13,10 +13,13 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <Details2 />
-      <Details />
-      <Stats />
-      <Systeme />
+    
+        <Details2 />
+        <Details />
+        <Systeme />
+        <Stats />
+      
+     
       <Contact />
     </>
   );

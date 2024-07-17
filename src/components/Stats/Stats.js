@@ -2,27 +2,27 @@
 import CountUp from 'react-countup';
 function Stats(props) {
   return (
-    <section id='stats' className='stats container'>
-      <div className='row my-6'>
-        <div className='col-md-4 col-sm-6 text-center'>
+    <section id='stats' className='stats  bg-secondary'>
+      <div className='row my-6 '>
+        <div className='col-md-4 col-sm-6 text-center  border-end border-4 border-light my-5 '>
           <h2 className='counter xl-text'>
-            <CountUp start={0} end={328} duration={10} />
+            +<CountUp start={0} end={328} duration={30} />
           </h2>
-          <p>Etudiants statisfaits</p>
+          <h6>Etudiants statisfaits</h6>
         </div>
 
-        <div className='col-md-4 col-sm-6 text-center'>
+        <div className='col-md-4 col-sm-6 text-center border-end border-4 border-light my-5'>
           <h2 className='counter xl-text'>
-            <CountUp start={0} end={486} duration={10} />
+            +<CountUp start={0} end={486} duration={30} />
           </h2>
-          <p>Abonnés Facebook</p>
+          <h6>Abonnés Facebook</h6>
         </div>
 
-        <div className='col-md-4 col-sm-6 text-center'>
+        <div className='col-md-4 col-sm-6 text-center my-5'>
           <h2 className='counter xl-text'>
-            <CountUp start={0} end={159} duration={10} />
+            +<CountUp start={0} end={159} duration={30} />
           </h2>
-          <p>Bonnes critiques</p>
+          <h6>Bonnes critiques</h6>
         </div>
       </div>
     </section>
