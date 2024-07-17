@@ -31,7 +31,7 @@ function Contact(props) {
 
   return (
     <>
-      <section id='contact' className='contact my-5 position-relative'>
+      <section id='contact' className='contact my-5 position-relative bg-light'>
         <Image
           src={decoration}
           alt=''
@@ -46,7 +46,6 @@ function Contact(props) {
             </div>
             <div className='col-lg-6'>
               <div className='text-container'>
-                <h2>Laissez-nous un message</h2>
                 <form onSubmit={handleSubmit} autoComplete='off'>
                   <div className='mb-3'>
                     <input

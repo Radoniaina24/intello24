@@ -3,7 +3,7 @@ import professeur from '@/images/Miraille.jpeg';
 import Image from 'next/image';
 export default function About() {
   return (
-    <section id='introduction' className='intro bg-light py-6'>
+    <section id='introduction' className='bg-light py-6'>
       <div className='container'>
         <div className='about'>
           <div className='row mt-5 align-items-center justify-content-center'>
