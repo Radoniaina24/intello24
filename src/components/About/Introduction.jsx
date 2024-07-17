@@ -5,15 +5,6 @@ export default function About() {
   return (
     <section id='introduction' className='intro bg-light py-6'>
       <div className='container'>
-        <div className='row'>
-          <div className='col-lg-8 offset-lg-2 text-center'>
-            <h2>NOTRE ÉTABLISSEMENT</h2>
-            <p className='fs-5'>
-              Reconnu pour les réusites des élèves aux examens officiels de
-              brevet et de Baccalauréat (Série génerale et SMTG).
-            </p>
-          </div>
-        </div>
         <div className='about'>
           <div className='row mt-5 align-items-center justify-content-center'>
             <div className=' col-12 col-md-6 col-lg-8'>

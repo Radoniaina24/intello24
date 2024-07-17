@@ -5,13 +5,7 @@ export default function Hero({children}) {
     <>
       <header className='header position-relative'>
         <div className='container py-8 '>
-          <div className='row text-center align-items-center justify-content-center'>
-            <div className="col-md-6">
-              <h1 className='text-white'>
-                {children}
-              </h1>
-            </div>
-          </div>
+            {children}
         </div>
         <Svg/>
       </header>
