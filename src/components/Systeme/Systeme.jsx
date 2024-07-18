@@ -1,5 +1,6 @@
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faCheck} from "@fortawesome/free-solid-svg-icons";
+import Link from "next/link";
 export default function Systeme() {
   return (
     <section className="" >
@@ -41,6 +42,9 @@ export default function Systeme() {
                 </button> */}
               </ul>
             </div>
+          </div>
+          <div className="d-flex justify-content-center">
+            <Link href={"/about"} className="btn btn-sm btn-primary mt-4 ">En savoir plus</Link>
           </div>
         </div>
       </section>
