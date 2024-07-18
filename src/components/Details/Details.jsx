@@ -16,7 +16,7 @@ export default function Details() {
               offrant à tous les élèves les moyens de réussir leur parcours
               scolaire et de devenir des citoyens responsables et engagés. */}
             </p>
-            <button className='btn btn-outline-secondary btn-sm'>Lire plus</button>
+            <button className='btn btn-secondary btn-sm text-light'>Lire plus</button>
           </div>
           <div className='col-12 col-md-6'>
             <Image

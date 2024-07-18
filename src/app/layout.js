@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
         <BoostrapBundle />
         <Navbar />
         {children}
-        <Footer />
+        {/* <Footer /> */}
         <ScrollTopBtn />
       </body>
     </html>
