@@ -21,7 +21,7 @@ export default function Systeme() {
             <div className='col-md-6 col-lg-5 mt-4 mt-md-0'>
               <h4 className="text-danger">Système educatif Francais</h4>
               <ul className='fs-5 list-unstyled'>
-                <li className="d-flex"><FontAwesomeIcon icon={faCheck} className={"text-warning fontAwesome mx-3"}/>Préscolaire</li>
+                <li className="d-flex text-dark"><FontAwesomeIcon icon={faCheck} className={"text-warning fontAwesome mx-3"}/>Préscolaire</li>
                 <li className="d-flex"><FontAwesomeIcon icon={faCheck} className={"text-warning fontAwesome mx-3"}/>Primaire</li>
                 <li className="d-flex"><FontAwesomeIcon icon={faCheck} className={"text-warning fontAwesome mx-3"}/>Collège</li>
                 <li className="d-flex"><FontAwesomeIcon icon={faCheck} className={"text-warning fontAwesome mx-3"}/>Lycée</li>
