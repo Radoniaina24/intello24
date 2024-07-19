@@ -7,7 +7,7 @@ import {faArrowCircleLeft, faArrowCircleRight} from "@fortawesome/free-solid-svg
 import Image from 'next/image';
 function Testimonials(props) {
     return (
-        <section id="testimonials" className="testimonials bg-light py-6">
+        <section id="testimonials" className="testimonials bg-light py-4">
             <div id="testimonialCarousel" className="carousel slide">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
@@ -20,13 +20,13 @@ function Testimonials(props) {
                                 className="rounded-circle"
                                 width="120"
                             />
-                            <p className="w-50 my-4 fst-italic fs-4 mb-4">
+                            <p className="w-50 my-4 fst-italic fs-6 mb-4">
                                 “Expense bed any sister depend changer off piqued one. Contented
                                 continued any happiness instantly objection yet her allowance.
                                 Use correct day new brought tedious. By come this been in. Kept
                                 easy or sons my it how about some words here done”
                             </p>
-                            <div className="fw-bold fs-5 mt-4">Marlene Visconte</div>
+                            <div className="fw-bold fs-6 mt-4">Marlene Visconte</div>
                             <div>General Manager - Scouter</div>
                         </div>
                     </div>
@@ -42,13 +42,13 @@ function Testimonials(props) {
                                 className="rounded-circle"
                                 width="120"
                             />
-                            <p className="w-50 my-4 fst-italic fs-4 mb-4">
+                            <p className="w-50 my-4 fst-italic fs-6 mb-4">
                                 “Expense bed any sister depend changer off piqued one. Contented
                                 continued any happiness instantly objection yet her allowance.
                                 Use correct day new brought tedious. By come this been in. Kept
                                 easy or sons my it how about some words here done”
                             </p>
-                            <div className="fw-bold fs-5 mt-4">John Spiker</div>
+                            <div className="fw-bold fs-6 mt-4">John Spiker</div>
                             <div>Team Leader - Vanquish</div>
                         </div>
                     </div>
@@ -63,13 +63,13 @@ function Testimonials(props) {
                                 className="rounded-circle"
                                 width="120"
                             />
-                            <p className="w-50 my-4 fst-italic fs-4 mb-4">
+                            <p className="w-50 my-4 fst-italic fs-6 mb-4">
                                 “Expense bed any sister depend changer off piqued one. Contented
                                 continued any happiness instantly objection yet her allowance.
                                 Use correct day new brought tedious. By come this been in. Kept
                                 easy or sons my it how about some words here done”
                             </p>
-                            <div className="fw-bold fs-5 mt-4">Stella Virtuoso</div>
+                            <div className="fw-bold fs-6 mt-4">Stella Virtuoso</div>
                             <div>Design Chief - Bikegirl</div>
                         </div>
                     </div>
@@ -80,7 +80,7 @@ function Testimonials(props) {
                     data-bs-target="#testimonialCarousel"
                     data-bs-slide="prev"
                 >
-                    <FontAwesomeIcon icon={faArrowCircleLeft} className="text-secondary"/>
+                    <FontAwesomeIcon icon={faArrowCircleLeft} className="text-secondary fontAwesome"/>
                 </button>
                 <button
                     className="carousel-control-next"
@@ -88,8 +88,7 @@ function Testimonials(props) {
                     data-bs-target="#testimonialCarousel"
                     data-bs-slide="next"
                 >
-                    {/* <FontAwesomeIcon icon={faArrowCircleLeft} className="fa-3x text-secondary"/> */}
-                    <FontAwesomeIcon size='xs' icon={faArrowCircleRight} className="text-secondary"/>
+                    <FontAwesomeIcon size='xs' icon={faArrowCircleRight} className="text-secondary fontAwesome"/>
                 </button>
             </div>
         </section>
