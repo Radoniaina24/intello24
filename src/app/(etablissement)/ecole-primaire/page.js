@@ -1,6 +1,8 @@
 import Hero from '@/components/Hero/Hero';
 import Primaire from '@/components/Primaire/Primaire';
-
+export const metadata = {
+  title: 'école-priamire',
+};
 export default function page() {
   return <>
     <Hero>

@@ -1,6 +1,8 @@
 import Hero from '@/components/Hero/Hero';
 import Lycee from '@/components/Lycee/Lycee';
-
+export const metadata = {
+  title: 'College-et-lycée',
+};
 export default function page() {
   return(
     <>
