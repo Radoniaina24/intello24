@@ -96,7 +96,7 @@ export default function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                className={`nav-link  btn btn-outline-secondary px-4 mx-4 text-dark ${
+                className={`  btn btn-secondary btn-sm px-4 mx-4 fw-bold text-dark ${
                   pahtname === '/contact' ? 'active-link' : ''
                 }`}
                 href='contact'
