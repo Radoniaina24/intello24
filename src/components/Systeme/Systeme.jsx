@@ -6,7 +6,7 @@ export default function Systeme() {
     <section className="" >
       <div className='container'>
         <div className='row text-center'>
-          <div className='col-lg-8 offset-lg-2'>
+          <div className='col-lg-8 offset-lg-2'data-aos="fade-down" data-aos-duration="4000">
             <h3 className='lh-base text-primary p-0 m-0'>
               Nous mettons à votre disposition un
               <span> double système d&apos;éducation.</span>
@@ -18,7 +18,7 @@ export default function Systeme() {
       <section id='projects' className='py-5 systeme'>
         <div className='container'>
           <div className='row  justify-content-between'>
-            <div className='col-md-6 col-lg-5 mt-4 mt-md-0'>
+            <div className='col-md-6 col-lg-5 mt-4 mt-md-0 ' data-aos="fade-down-right" data-aos-duration="4000">
               <h4 className="text-danger">Système educatif Francais</h4>
               <ul className='fs-5 list-unstyled'>
                 <li className="d-flex text-dark"><FontAwesomeIcon icon={faCheck} className={"text-warning fontAwesome mx-3"}/>Préscolaire</li>
@@ -29,7 +29,7 @@ export default function Systeme() {
               </ul>
             </div>
 
-            <div className='col-md-6 col-lg-5 mt-4 mt-md-0 '>
+            <div className='col-md-6 col-lg-5 mt-4 mt-md-0' data-aos="fade-up-left" data-aos-duration="4000">
               <h4 className="text-secondary">Système educatif Malagasy</h4>
               <ul className='fs-5 list-unstyled'>
                 <li className="d-flex"><FontAwesomeIcon icon={faCheck} className={"text-warning fontAwesome mx-3"}/>BEPC</li>
@@ -43,9 +43,9 @@ export default function Systeme() {
               </ul>
             </div>
           </div>
-          <div className="d-flex justify-content-center">
+          {/* <div className="d-flex justify-content-center">
             <Link href={"/about"} className="btn btn-sm btn-primary mt-4 ">En savoir plus</Link>
-          </div>
+          </div> */}
         </div>
       </section>
     </section>
@@ -54,3 +54,4 @@ export default function Systeme() {
 
 {
 }
+S

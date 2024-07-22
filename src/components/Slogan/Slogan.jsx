@@ -5,7 +5,7 @@ function Slogan(){
         <>
           <div className='row text-center align-items-center justify-content-center'>
             <div className="col-md-6">
-            <h1>
+            <h2>
               <span style={{ color: "#ebe0c2"}}>La </span>
               <span style={{color:"#c64f43"}}> 
                 réussite 
@@ -23,7 +23,8 @@ function Slogan(){
                     cursor={false}
                 />
                 </span>
-                </h1>
+                </h2>
+                <button className='btn btn-sm btn-secondary text-white'>En savoir plus</button>
             </div>
           </div>
         </>

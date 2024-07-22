@@ -7,22 +7,20 @@ import Slogan from '@/components/Slogan/Slogan';
 import Stats from '@/components/Stats/Stats';
 import Systeme from '@/components/Systeme/Systeme';
 import Testimonials from '@/components/Testimonials/Testimonials';
+import HomeComponent from '@/components/Home/Home.jsx';
 
 export const metadata = {
   title: 'Acceuil',
 };
 export default function Home() {
   return (
-    <>
+    <HomeComponent>
       <Hero><Slogan/></Hero>
-      <div className='fond'>
         <Details2 />
         <Details />
         <Systeme />
-        <Stats />
+        {/* <Stats /> */}
         <Testimonials/>
-        {/* <Contact /> */}
-      </div>
-    </>
+    </HomeComponent>
   );
 }

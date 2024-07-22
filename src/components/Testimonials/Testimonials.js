@@ -7,7 +7,7 @@ import {faArrowCircleLeft, faArrowCircleRight} from "@fortawesome/free-solid-svg
 import Image from 'next/image';
 function Testimonials(props) {
     return (
-        <section id="testimonials" className="testimonials bg-light py-4">
+        <section id="testimonials" className="testimonials py-4">
             <div id="testimonialCarousel" className="carousel slide">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
