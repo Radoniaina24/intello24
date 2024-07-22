@@ -99,7 +99,7 @@ export default function Navbar() {
                 className={`  btn btn-secondary btn-sm px-4 mx-4 fw-bold text-dark ${
                   pahtname === '/contact' ? 'active-link' : ''
                 }`}
-                href='contact'
+                href='#contact'
               >
                 Contact
               </Link>

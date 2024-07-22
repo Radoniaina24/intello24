@@ -7,7 +7,7 @@ function Slogan(){
             <div className="col-md-6">
             <h2>
               <span style={{ color: "#ebe0c2"}}>La </span>
-              <span style={{color:"#c64f43"}}> 
+              <span className='text-danger'> 
                 réussite 
                </span>
                 <span style={{ color: "#ebe0c2"}}> 
@@ -24,7 +24,7 @@ function Slogan(){
                 />
                 </span>
                 </h2>
-                <button className='btn btn-sm btn-secondary text-white'>En savoir plus</button>
+                <button className='btn btn-sm btn-danger text-white'>En savoir plus</button>
             </div>
           </div>
         </>

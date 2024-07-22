@@ -21,6 +21,7 @@ export default function Home() {
         <Systeme />
         {/* <Stats /> */}
         <Testimonials/>
+        <Contact/>
     </HomeComponent>
   );
 }
