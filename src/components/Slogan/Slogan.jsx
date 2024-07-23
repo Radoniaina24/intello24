@@ -1,4 +1,5 @@
 'use client';
+import Link from 'next/link';
 import { TypeAnimation } from 'react-type-animation';
 function Slogan(){
     return (
@@ -24,7 +25,9 @@ function Slogan(){
                 />
                 </span>
                 </h2>
-                <button className='btn btn-sm btn-danger text-white'>En savoir plus</button>
+                <Link href='/about' className='btn btn-sm btn-danger text-white'>
+                  En savoir plus
+                </Link>
             </div>
           </div>
         </>

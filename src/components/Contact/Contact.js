@@ -31,12 +31,8 @@ function Contact(props) {
 
   return (
     <>
-      <section id='contact' className='contact my-5 position-relative'>
-        {/* <Image
-          src={decoration}
-          alt=''
-          className='decoration-star position-absolute'
-        /> */}
+      <section id='contact bg-light' className='contact my-5 position-relative'>
+        <h2 className='text-center text-danger my-5'>Nous contacter</h2>
         <div className='container position-relative z-3'>
           <div className='row align-items-center'>
             <div className='col-lg-6 d-none d-md-block'>

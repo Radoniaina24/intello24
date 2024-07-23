@@ -5,6 +5,7 @@ import testimonial3 from '@/images/testimonial-3.jpg'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faArrowCircleLeft, faArrowCircleRight} from "@fortawesome/free-solid-svg-icons";
 import Image from 'next/image';
+import Svg from '../Hero/Svg';
 function Testimonials(props) {
     return (
         <section id="testimonials" className="testimonials py-4">
@@ -91,6 +92,9 @@ function Testimonials(props) {
                     <FontAwesomeIcon size='xs' icon={faArrowCircleRight} className="text-secondary fontAwesome"/>
                 </button>
             </div>
+            {/* <div className='transformation'>
+                <Svg/>
+            </div> */}
         </section>
     );
 }
