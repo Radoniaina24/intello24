@@ -54,11 +54,6 @@ function Footer(props) {
                 </p>
                 <p>
                   <Link className="nav-link" href="/">
-                    Éducation
-                  </Link>
-                </p>
-                <p>
-                  <Link className="nav-link" href="/">
                     Contact
                   </Link>
                 </p>
