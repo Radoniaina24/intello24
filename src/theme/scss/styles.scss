@@ -171,6 +171,15 @@
   background-color: var(--bs-secondary);
   opacity: 1;
 }
+.hr-danger {
+  display: inline-block;
+  width: 9.5rem;
+  height: 0.125rem;
+  margin-top: 0.625rem;
+  border: none;
+  background-color: var(--bs-danger);
+  opacity: 1;
+}
 
 .hr-introduction{
   display: inline-block;

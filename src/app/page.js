@@ -10,7 +10,7 @@ import Testimonials from '@/components/Testimonials/Testimonials';
 import HomeComponent from '@/components/Home/Home.jsx';
 
 export const metadata = {
-  title: 'Acceuil',
+  title: ' Acceuil | Intello',
 };
 export default function Home() {
   return (
@@ -19,7 +19,7 @@ export default function Home() {
         <Details2 />
         <Details />
         <Systeme />
-        {/* <Stats /> */}
+        <Stats />
         <Testimonials/>
         <Contact/>
     </HomeComponent>

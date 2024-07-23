@@ -31,8 +31,12 @@ function Contact(props) {
 
   return (
     <>
-      <section id='contact bg-light' className='contact my-5 position-relative'>
-        <h2 className='text-center text-danger my-5'>Nous contacter</h2>
+      <section id='contact' className='contact my-5 position-relative'>
+        <div className='title-contact text-center my-4'>
+          <h2 className='text-center text-danger'>Nous contacter</h2>
+          <hr className='hr-danger'/>
+        </div>
+       
         <div className='container position-relative z-3'>
           <div className='row align-items-center'>
             <div className='col-lg-6 d-none d-md-block'>

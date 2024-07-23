@@ -16,7 +16,7 @@ const poppins = Poppins({
 });
 export const metadata = {
   title: {
-    absolute: '',
+    absolute: 'Intello',
     default: 'Intello',
     template: '%s | Intello',
   },

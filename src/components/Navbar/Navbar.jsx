@@ -95,14 +95,14 @@ export default function Navbar() {
               </a>
             </li>
             <li className='nav-item'>
-              <Link
+              <a
                 className={`  btn btn-secondary btn-sm px-4 mx-4 fw-bold text-dark ${
                   pahtname === '/contact' ? 'active-link' : ''
                 }`}
                 href='#contact'
               >
                 Contact
-              </Link>
+              </a>
             </li>
           </ul>
         </div>

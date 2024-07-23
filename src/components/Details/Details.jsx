@@ -11,7 +11,7 @@ export default function Details() {
       <div className='container'>
         <div className='row align-items-center'>
           <div className='col-12 col-md-6' data-aos='fade-right' data-aos-duration="4000">
-            <h3 className='text-uppercase text-secondary'>Notre mission</h3>
+            <h3 className='text-uppercase text-secondary '>Notre mission</h3>
             <hr className="hr-heading" />
             <p className='lead' >
               Transmettre le savoir et les compétences nécessaires aux élèves
