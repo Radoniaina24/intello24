@@ -1,7 +1,6 @@
 "use client";
-import Image from "next/image";
 import start from "@/images/decoration-star.svg";
-import Svg from "../Hero/Svg";
+import Image from "next/image";
 
 function Details2(props) {
   return (

@@ -1,6 +1,5 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
-import Link from "next/link";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default function Systeme() {
   return (
     <section className="">
@@ -24,7 +23,7 @@ export default function Systeme() {
           <div className="row  justify-content-between">
             <div
               className="col-md-6 col-lg-5 mt-4 mt-md-0 "
-              data-aos="fade-down-right"
+              data-aos="fade-down"
               data-aos-duration="4000"
             >
               <h4 className="text-danger">Système educatif Francais</h4>
@@ -69,7 +68,7 @@ export default function Systeme() {
 
             <div
               className="col-md-6 col-lg-5 mt-4 mt-md-0"
-              data-aos="fade-up-left"
+              data-aos="fade-up"
               data-aos-duration="4000"
             >
               <h4 className="text-secondary">Système educatif Malagasy</h4>

@@ -26,18 +26,8 @@
   transition: all 0.5s ease-in-out;
 }
 .navbar-sticky {
-  background-image: -webkit-linear-gradient(
-    248deg,
-    #5ca22a 0%,
-    #5098c8 47%,
-    #ffcc70 95%
-  );
-  background-image: linear-gradient(
-    248deg,
-    #5ca22a 0%,
-    #5098c8 47%,
-    #ffcc70 95%
-  );
+  background-image: -webkit-linear-gradient(258deg, #5ca22a 0%, #5098c8 100%);
+  background-image: linear-gradient(258deg, #5ca22a 0%, #5098c8 100%);
   opacity: 0.9;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
@@ -48,10 +38,6 @@
 .header {
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
     url("../../images/hero11.jpg") left center no-repeat;
-
-  // background-image: -webkit-linear-gradient(248deg, #5ca22a 0%, #5098c8 47%, #FFCC70 95%);
-  // background-image: linear-gradient(248deg, #5ca22a 0%, #5098c8 47%, #FFCC70 95%);
-  // background-image: linear-gradient(248deg, #5ca22a 0%, #C850C0 47%, #FFCC70 95%);
   background-size: cover;
 }
 .introduction .decoration-star {
@@ -103,18 +89,8 @@
 }
 @media (max-width: 992px) {
   .navbar {
-    background-image: -webkit-linear-gradient(
-      248deg,
-      #5ca22a 0%,
-      #5098c8 47%,
-      #ffcc70 95%
-    );
-    background-image: linear-gradient(
-      248deg,
-      #5ca22a 0%,
-      #5098c8 47%,
-      #ffcc70 95%
-    );
+    background-image: -webkit-linear-gradient(258deg, #5ca22a 0%, #5098c8 100%);
+    background-image: linear-gradient(258deg, #5ca22a 0%, #5098c8 100%);
     opacity: 0.9;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
@@ -201,6 +177,15 @@
   background-color: var(--bs-secondary);
   opacity: 1;
 }
+.hr-success2 {
+  display: inline-block;
+  width: 3.5rem;
+  height: 0.125rem;
+  margin-top: 0.625rem;
+  border: none;
+  background-color: var(--bs-success);
+  opacity: 1;
+}
 .hr-danger {
   display: inline-block;
   width: 9.5rem;
@@ -208,6 +193,24 @@
   margin-top: 0.625rem;
   border: none;
   background-color: var(--bs-danger);
+  opacity: 1;
+}
+.hr-danger {
+  display: inline-block;
+  width: 9.5rem;
+  height: 0.125rem;
+  margin-top: 0.625rem;
+  border: none;
+  background-color: var(--bs-danger);
+  opacity: 1;
+}
+.hr-success {
+  display: inline-block;
+  width: 9.5rem;
+  height: 0.125rem;
+  margin-top: 0.625rem;
+  border: none;
+  background-color: var(--bs-success);
   opacity: 1;
 }
 
@@ -220,20 +223,20 @@
   background-color: var(--bs-primary);
   opacity: 1;
 }
-body {
-  background-image: -webkit-linear-gradient(
-    136deg,
-    #5ca22a 30%,
-    #5098c8 47%,
-    #ffcd707c 20%
-  );
-  background-image: linear-gradient(
-    136deg,
-    #5ca22a 30%,
-    #5098c8 47%,
-    #ffcd7083 20%
-  );
-}
+// body {
+//   background-image: -webkit-linear-gradient(
+//     136deg,
+//     #5ca22a 30%,
+//     #5098c8 47%,
+//     #ffcd707c 20%
+//   );
+//   background-image: linear-gradient(
+//     136deg,
+//     #5ca22a 30%,
+//     #5098c8 47%,
+//     #ffcd7083 20%
+//   );
+// }
 .systeme .fontAwesome {
   width: 25px;
 }
@@ -245,4 +248,9 @@ body {
 }
 .fontAwesome {
   width: 25px;
+}
+.introduction {
+  .fontAwesome {
+    width: 17px;
+  }
 }
