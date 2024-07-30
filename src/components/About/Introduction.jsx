@@ -36,18 +36,19 @@ export default function About() {
               data-aos="fade-down"
               data-aos-duration="4000"
             >
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Laboriosam veritatis architecto, error tenetur sed sit commodi
-                perferendis officiis consequatur? Ex ducimus facere excepturi
-                totam obcaecati nobis ipsum beatae veritatis dolorem. Lorem
-                ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam
-                veritatis architecto, error tenetur sed sit commodi perferendis
+              <p className="fw-bold">
+                Chers parents, chers élèves, chers collègues,
               </p>
               <p>
-                Laboriosam veritatis architecto, error tenetur sed sit commodi
-                perferendis officiis consequatur? Ex ducimus facere excepturi
-                totam obcaecati nobis ipsum beatae veritatis dolorem.
+                C&apos;est avec une grande joie que je vous retrouve
+                aujourd&apos;hui.Notre école est bien plus qu&apos;un simple
+                lieu d&apos;apprentissage ; c&apos;est un foyer où chacun
+                d&apos;entre nous peut grandir, s&apos;épanouir et se
+                construire.
+              </p>
+              <p>
+                Notre ambition commune est de former des citoyens éclairés,
+                responsables et bienveillants.
               </p>
               <p className="fw-bold">Singnature</p>
               <p className="fw-bold">Madame Miraille, Directrice</p>
