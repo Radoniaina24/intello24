@@ -5,7 +5,7 @@ import Image from "next/image";
 function Details2(props) {
   return (
     <>
-      <section className=" introduction bg-light py-6 text-center position-relative overflow-hidden">
+      <section className="introduction bg-light py-6 text-center position-relative overflow-hidden">
         <Image
           src={start}
           alt="start"

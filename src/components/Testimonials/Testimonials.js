@@ -1,18 +1,21 @@
-import React from "react";
 import testimonial1 from "@/images/testimonial-1.jpg";
 import testimonial2 from "@/images/testimonial-2.jpg";
 import testimonial3 from "@/images/testimonial-3.jpg";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faArrowCircleLeft,
   faArrowCircleRight,
 } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
-import Svg from "../Hero/Svg";
 function Testimonials(props) {
   return (
     <section id="testimonials" className="testimonials py-4">
-      <div id="testimonialCarousel" className="carousel slide">
+      <div
+        id="testimonialCarousel"
+        className="carousel slide"
+        data-aos="fade-up"
+        data-aos-duration="4000"
+      >
         <div className="carousel-inner">
           <div className="carousel-item active">
             <div className="d-flex flex-column justify-content-center align-items-center text-center">

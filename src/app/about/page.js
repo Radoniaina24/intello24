@@ -1,3 +1,4 @@
+import AboutComponent from "@/components/About/AboutComponent";
 import Introduction from "@/components/About/Introduction";
 import Hero from "@/components/Hero/Hero";
 export const metadata = {
@@ -6,16 +7,18 @@ export const metadata = {
 export default function page() {
   return (
     <>
-      <Hero>
-        <div className="row">
-          <div className="col-lg-8 offset-lg-2 text-center">
-            <h2 className="fs-2" style={{ color: "#ebe0c2" }}>
-              <span className=""> À propos de notre établissement</span>
-            </h2>
+      <AboutComponent>
+        <Hero>
+          <div className="row">
+            <div className="col-lg-8 offset-lg-2 text-center">
+              <h2 className="fs-2" style={{ color: "#ebe0c2" }}>
+                <span className=""> À propos de notre établissement</span>
+              </h2>
+            </div>
           </div>
-        </div>
-      </Hero>
-      <Introduction />
+        </Hero>
+        <Introduction />
+      </AboutComponent>
     </>
   );
 }

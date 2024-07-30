@@ -1,21 +1,20 @@
-'use client';
-import contact1 from '@/images/contact2.png';
-import decoration from '@/images/decoration-star.svg';
-import { contactSchema } from '@/utils/yup/Schema';
-import { useFormik } from 'formik';
-import Image from 'next/image';
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+"use client";
+import contact1 from "@/images/contact2.png";
+import { contactSchema } from "@/utils/yup/Schema";
+import { useFormik } from "formik";
+import Image from "next/image";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 const initialValues = {
-  name: '',
-  email: '',
-  message: '',
-  phone: '',
+  name: "",
+  email: "",
+  message: "",
+  phone: "",
 };
 function Contact(props) {
   function notify() {
-    toast.success('Email envoyer', {
-      position: 'top-right',
+    toast.success("Email envoyer", {
+      position: "top-right",
     });
   }
   function onSubmit() {
@@ -31,107 +30,119 @@ function Contact(props) {
 
   return (
     <>
-      <section id='contact' className='contact my-5 position-relative'>
-        <div className='title-contact text-center my-4'>
-          <h2 className='text-center text-danger'>Nous contacter</h2>
-          <hr className='hr-danger'/>
+      <section id="contact" className="contact my-5 position-relative">
+        <div
+          className="title-contact text-center my-4"
+          data-aos="zoom-in-down"
+          data-aos-duration="4000"
+        >
+          <h2 className="text-center text-danger">Nous contacter</h2>
+          <hr className="hr-danger" />
         </div>
-       
-        <div className='container position-relative z-3'>
-          <div className='row align-items-center'>
-            <div className='col-lg-6 d-none d-md-block'>
-              <div className='image-container'>
-                <Image src={contact1} alt='' className='img-fluid' />
+
+        <div className="container position-relative z-3">
+          <div className="row align-items-center">
+            <div
+              className="col-lg-6 d-none d-md-block"
+              data-aos="fade-up"
+              data-aos-duration="4000"
+            >
+              <div className="image-container">
+                <Image src={contact1} alt="" className="img-fluid" />
               </div>
             </div>
-            <div className='col-lg-6'>
-              <div className='text-container'>
-                <form onSubmit={handleSubmit} autoComplete='off'>
-                  <div className='mb-3'>
+            <div
+              className="col-lg-6"
+              data-aos="fade-down"
+              data-aos-duration="4000"
+            >
+              <div className="text-container">
+                <form onSubmit={handleSubmit} autoComplete="off">
+                  <div className="mb-3">
                     <input
-                      type='text'
+                      type="text"
                       className={`form-control ${
                         touched.name && errors.name
-                          ? 'border border-danger'
-                          : ''
+                          ? "border border-danger"
+                          : ""
                       }`}
-                      placeholder='nom'
-                      name='name'
-                      id='name'
+                      placeholder="nom"
+                      name="name"
+                      id="name"
                       value={values.name}
                       onChange={handleChange}
                     />
                     {touched.name && errors.name ? (
-                      <div className='text-danger ps-2'>{errors.name}</div>
+                      <div className="text-danger ps-2">{errors.name}</div>
                     ) : (
-                      ''
+                      ""
                     )}
                   </div>
-                  <div className='mb-3'>
+                  <div className="mb-3">
                     <input
-                      type='email'
+                      type="email"
                       className={`form-control ${
                         touched.email && errors.email
-                          ? 'border border-danger'
-                          : ''
+                          ? "border border-danger"
+                          : ""
                       }`}
-                      placeholder='email'
-                      name='email'
-                      id='email'
+                      placeholder="email"
+                      name="email"
+                      id="email"
                       value={values.email}
                       onChange={handleChange}
                     />
                     {touched.email && errors.email ? (
-                      <div className='text-danger ps-2'>{errors.email}</div>
+                      <div className="text-danger ps-2">{errors.email}</div>
                     ) : (
-                      ''
+                      ""
                     )}
                   </div>
-                  <div className='mb-3'>
+                  <div className="mb-3">
                     <input
-                      type='text'
+                      type="text"
                       className={`form-control ${
                         touched.phone && errors.phone
-                          ? 'border border-danger'
-                          : ''
+                          ? "border border-danger"
+                          : ""
                       }`}
-                      placeholder='phone'
-                      name='phone'
-                      id='phone'
+                      placeholder="phone"
+                      name="phone"
+                      id="phone"
                       value={values.phone}
                       onChange={handleChange}
                     />
                     {touched.phone && errors.phone ? (
-                      <div className='text-danger ps-2'>{errors.phone}</div>
+                      <div className="text-danger ps-2">{errors.phone}</div>
                     ) : (
-                      ''
+                      ""
                     )}
                   </div>
-                  <div className='mb-3'>
+                  <div className="mb-3">
                     <textarea
                       className={`form-control ${
                         touched.message && errors.message
-                          ? 'border border-danger'
-                          : ''
+                          ? "border border-danger"
+                          : ""
                       }`}
-                      placeholder='message'
-                      rows='8'
-                      name='message'
-                      id='message'
+                      placeholder="message"
+                      rows="8"
+                      name="message"
+                      id="message"
                       value={values.message}
                       onChange={handleChange}
                     ></textarea>
                     {touched.message && errors.message ? (
-                      <div className='text-danger ps-2'>{errors.message}</div>
+                      <div className="text-danger ps-2">{errors.message}</div>
                     ) : (
-                      ''
+                      ""
                     )}
                   </div>
-                  <div className='d-grid gap-2'>
+                  <div className="d-grid gap-2">
                     <input
-                      type='submit'
-                      value='Envoyer'
-                      className='btn btn-primary btn-block'
+                      type="submit"
+                      value="Envoyer"
+                      className="btn btn-primary btn-block"
                     />
                   </div>
                 </form>
