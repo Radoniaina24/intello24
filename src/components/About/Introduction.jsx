@@ -4,6 +4,7 @@ import testimonial1 from "@/images/testimonial-1.jpg";
 import { faCircle } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
+import signature from "@/images/signature.png";
 export default function About() {
   return (
     <section id="introduction" className=" introduction bg-light py-3">
@@ -41,7 +42,7 @@ export default function About() {
               </p>
               <p>
                 C&apos;est avec une grande joie que je vous retrouve
-                aujourd&apos;hui.Notre école est bien plus qu&apos;un simple
+                aujourd&apos;hui. Notre école est bien plus qu&apos;un simple
                 lieu d&apos;apprentissage ; c&apos;est un foyer où chacun
                 d&apos;entre nous peut grandir, s&apos;épanouir et se
                 construire.
@@ -50,8 +51,16 @@ export default function About() {
                 Notre ambition commune est de former des citoyens éclairés,
                 responsables et bienveillants.
               </p>
-              <p className="fw-bold">Singnature</p>
-              <p className="fw-bold">Madame Miraille, Directrice</p>
+              <p className="fw-bold">
+                <Image
+                  src={signature}
+                  alt="signature"
+                  width={"90"}
+                  height={"90"}
+                  className="ms-3"
+                />
+              </p>
+              <p className="fw-bold">Madame Mireille, Directrice</p>
             </div>
           </div>
         </div>
