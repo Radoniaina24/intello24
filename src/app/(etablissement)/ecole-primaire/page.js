@@ -8,7 +8,7 @@ export default function page() {
     <>
       <Hero>
         <div className="text-center">
-          <h2>Primaire-préscolaire</h2>
+          <h2 className="text-secondary">Primaire-préscolaire</h2>
           <h2 className="text-danger">Système éducatif français</h2>
         </div>
       </Hero>
