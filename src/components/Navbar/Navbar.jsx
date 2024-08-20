@@ -89,17 +89,17 @@ export default function Navbar() {
                 </li>
               </ul>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <a className="nav-link" href="#projects">
                 Actualités
               </a>
-            </li>
+            </li> */}
             <li className="nav-item">
               <a
                 className={`  btn btn-secondary btn-sm px-4 mx-4 fw-bold text-dark ${
                   pahtname === "/contact" ? "active-link" : ""
                 }`}
-                href="#contact"
+                href="/#contact"
               >
                 Contact
               </a>

@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMailBulk, faPhone, faSms } from "@fortawesome/free-solid-svg-icons";
 function Footer(props) {
   return (
-    <div className="mt-5">
+    <div className="">
       <footer
         className="text-center text-lg-start text-white"
         style={{ backgroundColor: "#1c2331" }}

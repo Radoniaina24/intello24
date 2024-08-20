@@ -1,5 +1,5 @@
 // Font
-$font-family-sans-serif: 'Open Sans', sans-serif;
+$font-family-sans-serif: "Open Sans", sans-serif;
 
 //Colors
 // $primary: #e4b00f;
@@ -35,7 +35,7 @@ $line-height-base: 1.7;
 $headings-font-weight: bold;
 
 // Buttons
-$button-radius: 50px;
+$button-radius: 25px;
 $button-padding-x: 30px;
 $button-padding-y: 10px;
 
@@ -58,4 +58,4 @@ $input-border-radius: $input-radius;
 $input-border-radius-sm: $input-radius;
 $input-border-radius-lg: $input-radius;
 
-@import '../../../node_modules/bootstrap/scss/bootstrap';
+@import "../../../node_modules/bootstrap/scss/bootstrap";
