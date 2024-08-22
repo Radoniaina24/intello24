@@ -9,7 +9,7 @@ export default function Lycee() {
         <div className="row mb-6">
           <div className="col-lg-8 offset-lg-2">
             <h4 class="mb-4 text-danger text-center">
-              Systeme éducatif français
+              Système éducatif français
             </h4>
             <ul className="list-unstyled">
               <li className="d-flex mb-3">
@@ -18,7 +18,7 @@ export default function Lycee() {
                   className={"text-danger fontAwesome me-2"}
                 />
                 <p className="m-0">
-                  Qualité de l&apos;enseignement avec méthodoligie adaptée
+                  Qualité de l&apos;enseignement avec méthodologie adaptée
                 </p>
               </li>
               <li className="d-flex mb-3">
@@ -37,7 +37,7 @@ export default function Lycee() {
                   className={"text-danger fontAwesome me-2"}
                 />
                 <p className="m-0">
-                  Reconnu pour les réussites des élèves aux exament officiels de
+                  Reconnu pour les réussites des élèves aux examens officiels de
                   brevet et de Baccalauréat (série SL et STMG)
                 </p>
               </li>
@@ -48,7 +48,7 @@ export default function Lycee() {
                 />
                 <p className="m-0">
                   Assurance aux élèves lors de la préparation des inscriptions
-                  aux différentes universités francaises (Par cours Sup)
+                  aux différentes universités françaises (Parcours Sup)
                 </p>
               </li>
             </ul>
@@ -58,7 +58,7 @@ export default function Lycee() {
         <div className="row mb-6">
           <div className="col-lg-8 offset-lg-2">
             <h4 class="mb-4 text-secondary text-center">
-              Systeme éducatif Malagasy
+              Système éducatif Malagasy
             </h4>
             <ul className="list-unstyled">
               <li className="d-flex mb-3">
@@ -106,7 +106,7 @@ export default function Lycee() {
                 <p className="m-0">
                   Existance du classe intermediaire{" "}
                   <span className="text-secondary fw-bold">
-                    (6e, 5e, 4e et 2nde)
+                    (6e, 5e, 4e, 3e et 2nde)
                   </span>
                 </p>
               </li>
@@ -186,8 +186,6 @@ export default function Lycee() {
 
 {
   /* 
-   
- 
     4-Session spéciale intello
     <p>Mecredi après-midi, dimanche matin et/ou soir</p>
     <p>

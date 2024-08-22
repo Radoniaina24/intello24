@@ -23,7 +23,7 @@ export default function Primaire() {
                 />
                 <p className="m-0">
                   Etant a l&apos;écoute des attents des parents pour les enfants
-                  ayant des difficultés scolaire
+                  ayant des difficultés scolaires
                 </p>
               </li>
               <li className="d-flex mb-3">
@@ -32,8 +32,8 @@ export default function Primaire() {
                   className={"text-warning fontAwesome me-2"}
                 />
                 <p className="m-0">
-                  Enseigante prête à s&apos;occuper et à entreprendre des
-                  suivies pour améliore le niveau de chaque élève en dificulré
+                  Enseignante prête à s&apos;occuper et à entreprendre des
+                  suivies pour améliorer le niveau de chaque élève en difficulté
                 </p>
               </li>
             </ul>
@@ -41,7 +41,7 @@ export default function Primaire() {
         </div>
         <div className="row">
           <div className="col-lg-6">
-            <h4> Pour les cas spécial de certains enfants</h4>
+            <h4> Pour les cas spécials de certains enfants</h4>
             <hr className="hr-introduction" />
             <ul className="list-unstyled d-flex flex-column gap-2">
               <li className="d-flex">
@@ -65,7 +65,7 @@ export default function Primaire() {
                   icon={faCheck}
                   className={"text-danger fontAwesome me-2"}
                 />
-                <p className="m-0">Françcais</p>
+                <p className="m-0">Français</p>
               </li>
               <li className="d-flex ms-4">
                 <FontAwesomeIcon
