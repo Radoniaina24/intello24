@@ -18,7 +18,7 @@ export default function Lycee() {
                   className={"text-danger fontAwesome me-2"}
                 />
                 <p className="m-0">
-                  Qualité de l'enseignement avec méthodologie adaptée
+                  Qualité de l&apos;enseignement avec méthodologie adaptée
                 </p>
               </li>
               <li className="d-flex mb-3">
@@ -116,7 +116,7 @@ export default function Lycee() {
                   className={"text-primary fontAwesome me-2"}
                 />
                 <p className="m-0">
-                  Réussite assurée à la fin de l'année scolaire
+                  Réussite assurée à la fin de l&apos;année scolaire
                 </p>
               </li>
               <li className="d-flex mb-3">
@@ -152,8 +152,8 @@ export default function Lycee() {
                   className={"text-primary fontAwesome me-2"}
                 />
                 <p className="m-0">
-                  Pour ceux qui n'on pas le temps de suivre les heures normales
-                  le cours en salle
+                  Pour ceux qui n&apos;on pas le temps de suivre les heures
+                  normales le cours en salle
                 </p>
               </li>
               <li className="d-flex mb-3">
@@ -189,13 +189,13 @@ export default function Lycee() {
     4-Session spéciale intello
     <p>Mecredi après-midi, dimanche matin et/ou soir</p>
     <p>
-      Pour ceux qui n'on pas le temps 
+      Pour ceux qui n&apos;on pas le temps 
       de suivre les heures normales le cours en salle
     </p>
     <p>Réussite assurée</p>
     <p>Professeur expérimenté</p>
     <p>
-      Inscription à l'examen officiel brevet 
+      Inscription à l&apos;examen officiel brevet 
       épreuve anticipées et au baccaluréat 
     </p>
     <p>
