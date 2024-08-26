@@ -3,11 +3,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMailBulk, faPhone, faSms } from "@fortawesome/free-solid-svg-icons";
 function Footer(props) {
   return (
-    <div className="">
-      <footer
-        className="text-center text-lg-start text-white"
-        style={{ backgroundColor: "#1c2331" }}
-      >
+    <div className="bg-dark">
+      <footer className="text-center text-lg-start text-white">
         <section className="d-flex justify-content-center">
           <div className="container text-center text-md-start mt-5">
             <div className="row mt-3">

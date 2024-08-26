@@ -254,3 +254,13 @@
     width: 17px;
   }
 }
+.matière {
+  .card {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    &:hover {
+      background-color: #fe5d37;
+      color: white !important;
+    }
+  }
+}
